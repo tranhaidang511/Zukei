@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1593,1598" id="pro3" metadata="uml2-1.0" initialized="true" zoom="0.75" scrolledX="157" scrolledY="-12" tag="1000" key="32303037303533312D313030302050726F4949492F737567757275">
+  <children xsi:type="editmodel:ClassEditModel" name="Main2" location="675,400" size="86,68" id="pro3/Main2" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="pro3/Main2#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main2-Standard::Call->pro3.parser/MainParser*pro3/Main2-Standard::Instantiate->pro3.parser/MainParser*pro3/Main2-Soyatec::Import->pro3.parser/MainParser" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" location="534,389" size="146,13" automaticRelocationAllowed="false" locationOnWireFromSource="-20.0" distanceFromWire="59.00000000000001" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="14,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="188,153"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main2-Standard::Instantiate->pro3.target/WindowTarget" source="//@children.0" target="//@children.15" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" location="604,763" size="74,13" automaticRelocationAllowed="false" locationOnWireFromSource="-1.9197332405241063" distanceFromWire="26.95022493941798" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="33,68" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="107,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main2-Standard::Instantiate->pro3.shape/ShapeManager*pro3/Main2-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.0" target="//@children.12" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate, Import»" location="809,593" size="118,13" automaticRelocationAllowed="false" locationOnWireFromSource="19.364340424635262" distanceFromWire="45.71676191419113" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,68" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="30,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main2-Soyatec::Import->pro3.target/Target" source="//@children.0" target="//@children.13" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,68" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,10"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0" name="AttributeParser" location="1417,155" size="156,81" id="pro3.parser/AttributeParser" runTimeClassModel="parse(Ljava.util.Scanner;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,18">
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="pro3.parser/AttributeParser#parse(Ljava.util.Scanner;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/AttributeParser-Standard::Call->pro3.shape/Attribute*pro3.parser/AttributeParser-Standard::Instantiate->pro3.shape/Attribute*pro3.parser/AttributeParser-Soyatec::Import->pro3.shape/Attribute" source="//@children.1" target="//@children.8" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" location="1396,614" size="146,13" automaticRelocationAllowed="false" locationOnWireFromSource="-112.0" distanceFromWire="-18.00000000000005" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,81" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="65,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1" name="CircleParser" location="1055,155" size="131,99" id="pro3.parser/CircleParser" runTimeClassModel="parse(Ljava.util.Scanner;I),CircleParser()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="100,36">
+      <children xsi:type="editmodel:MethodEditModel" name="parse" location="918,256" id="pro3.parser/CircleParser#parse(Ljava.util.Scanner;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="CircleParser" location="3,47" id="pro3.parser/CircleParser#CircleParser()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/CircleParser-Standard::Call->pro3.parser/AttributeParser" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="35,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,40" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,40"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/CircleParser-Soyatec::Implement->pro3.parser/ShapeParser" source="//@children.2" target="//@children.6" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="1,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="134,94"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/CircleParser-Standard::Call->pro3.shape/Circle*pro3.parser/CircleParser-Standard::Instantiate->pro3.shape/Circle*pro3.parser/CircleParser-Soyatec::Import->pro3.shape/Circle" source="//@children.2" target="//@children.9" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,99" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/CircleParser-Soyatec::Import->pro3.shape/Shape" source="//@children.2" target="//@children.11" targetEnd="//@children.2/@sourceConnections.3/@children.2" label="//@children.2/@sourceConnections.3/@children.0" sourceEnd="//@children.2/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,99" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="17,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="pro3.parser/CircleParser-Soyatec::Import->pro3.shape/Attribute" source="//@children.2" target="//@children.8" targetEnd="//@children.2/@sourceConnections.4/@children.2" label="//@children.2/@sourceConnections.4/@children.0" sourceEnd="//@children.2/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" location="1259,658" size="51,13" automaticRelocationAllowed="false" locationOnWireFromSource="-71.95907042281105" distanceFromWire="24.47227377839906" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,98" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,-1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="pro3.parser/ShapeParser&lt;-pro3.parser/CircleParser" source="//@children.2" target="//@children.6" targetEnd="//@children.2/@sourceConnections.5/@children.1" sourceEnd="//@children.2/@sourceConnections.5/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,20" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,93"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showProtectedAttributes="true" showPublicAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.22/@sourceConnections.0" name="MainParser" location="406,134" size="247,153" id="pro3.parser/MainParser" runTimeClassModel="parse(Ljava.util.Scanner;),shapemanager,target,map,MainParser(Lpro3.target.Target;Lpro3.shape.ShapeManager;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="224,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="map" id="pro3.parser/MainParser#map"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="shapemanager" id="pro3.parser/MainParser#shapemanager"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="target" id="pro3.parser/MainParser#target"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,36">
+      <children xsi:type="editmodel:MethodEditModel" name="MainParser" id="pro3.parser/MainParser#MainParser(Lpro3.target.Target;Lpro3.shape.ShapeManager;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="pro3.parser/MainParser#parse(Ljava.util.Scanner;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/MainParser-Standard::Instantiate->pro3.parser/TargetParser" source="//@children.3" target="//@children.7" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,76" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="152,77"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/MainParser-Standard::Instantiate->pro3.parser/ShapeManagerParser" source="//@children.3" target="//@children.5" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="247,76" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,76"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/MainParser-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.3" target="//@children.12" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="175,153" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/MainParser-Soyatec::Import->pro3.target/Target" source="//@children.3" target="//@children.13" targetEnd="//@children.3/@sourceConnections.3/@children.2" label="//@children.3/@sourceConnections.3/@children.0" sourceEnd="//@children.3/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,153" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="113,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.5/@sourceConnections.4 //@children.5/@children.2/@children.0/@sourceConnections.0 //@children.7/@sourceConnections.3 //@children.7/@children.2/@children.1/@sourceConnections.0 //@children.7/@children.2/@children.0/@sourceConnections.0" autoLocated="true" id="pro3.parser/MetaParser&lt;-pro3.parser/MainParser" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.4/@children.1" sourceEnd="//@children.3/@sourceConnections.4/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="123,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="63,94" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="pro3.parser/MainParser-Standard::Call->pro3.parser/MetaParser*pro3.parser/MainParser-Soyatec::Import->pro3.parser/MetaParser*pro3.parser/MainParser-Soyatec::Implement->pro3.parser/MetaParser" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.5/@children.2" label="//@children.3/@sourceConnections.5/@children.0" sourceEnd="//@children.3/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Implement»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="190,-1" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="76,93"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.3 //@children.7/@sourceConnections.2 //@children.3/@sourceConnections.4 //@children.3/@sourceConnections.5" name="MetaParser" location="506,-10" size="127,94" id="pro3.parser/MetaParser" runTimeClassModel="parse(Ljava.util.Scanner;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,18">
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="pro3.parser/MetaParser#parse(Ljava.util.Scanner;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1" name="ShapeManagerParser" location="660,134" size="258,195" id="pro3.parser/ShapeManagerParser" runTimeClassModel="parse(Ljava.util.Scanner;),ShapeManagerParser(Lpro3.shape.ShapeManager;),mmap,shapemanager,pro3.parser.ShapeManagerParser.ClearParser,map">
+    <children xsi:type="editmodel:CompartmentEditModel" size="235,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="map" id="pro3.parser/ShapeManagerParser#map"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="mmap" id="pro3.parser/ShapeManagerParser#mmap"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="shapemanager" id="pro3.parser/ShapeManagerParser#shapemanager"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,36">
+      <children xsi:type="editmodel:MethodEditModel" name="ShapeManagerParser" id="pro3.parser/ShapeManagerParser#ShapeManagerParser(Lpro3.shape.ShapeManager;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="pro3.parser/ShapeManagerParser#parse(Ljava.util.Scanner;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,32">
+      <children xsi:type="editmodel:ClassEditModel" name="ClearParser" size="128,30" id="pro3.parser/ShapeManagerParser$ClearParser" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="pro3.parser/MetaParser&lt;-pro3.parser/ShapeManagerParser$ClearParser" source="//@children.5/@children.2/@children.0" target="//@children.3/@sourceConnections.4" targetEnd="//@children.5/@children.2/@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@children.2/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+          <children xsi:type="editmodel:AssociationEndEditModel" location="88,-1" anchorKind="FixedAtEdge" attachSource="true"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" location="1,-55" anchorKind="FixedAtEdge"/>
+        </sourceConnections>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/ShapeManagerParser-Standard::Call->pro3.parser/ShapeParser*pro3.parser/ShapeManagerParser-Soyatec::Import->pro3.parser/ShapeParser" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="229,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,94"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/ShapeManagerParser-Standard::Instantiate->pro3.parser/CircleParser" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="258,70" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,49"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/ShapeManagerParser-Standard::Call->pro3.shape/ShapeManager*pro3.parser/ShapeManagerParser-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.5" target="//@children.12" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="234,195" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="22,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/ShapeManagerParser-Standard::Call->pro3.parser/MetaParser*pro3.parser/ShapeManagerParser-Soyatec::Import->pro3.parser/MetaParser*pro3.parser/ShapeManagerParser-Soyatec::Implement->pro3.parser/MetaParser" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.3/@children.2" label="//@children.5/@sourceConnections.3/@children.0" sourceEnd="//@children.5/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Implement»" location="646,97" size="146,13" automaticRelocationAllowed="false" locationOnWireFromSource="-49.851323129764374" distanceFromWire="-49.63713914209621" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="19,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,94"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="pro3.parser/MetaParser&lt;-pro3.parser/ShapeManagerParser" source="//@children.5" target="//@children.3/@sourceConnections.4" targetEnd="//@children.5/@sourceConnections.4/@children.1" sourceEnd="//@children.5/@sourceConnections.4/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="128,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-56,30"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.2/@sourceConnections.1 //@children.5/@sourceConnections.0 //@children.2/@sourceConnections.5" name="ShapeParser" location="922,-11" size="136,94" id="pro3.parser/ShapeParser" runTimeClassModel="parse(Ljava.util.Scanner;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,18">
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="pro3.parser/ShapeParser#parse(Ljava.util.Scanner;I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/ShapeParser-Soyatec::Import->pro3.shape/Shape" source="//@children.6" target="//@children.11" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,94" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="25,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.0" name="TargetParser" location="247,133" size="152,205" id="pro3.parser/TargetParser" runTimeClassModel="parse(Ljava.util.Scanner;),TargetParser(Lpro3.target.Target;Lpro3.shape.ShapeManager;),pro3.parser.TargetParser.FlushParser,pro3.parser.TargetParser.ClearParser,pro3.parser.TargetParser.DrawParser">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,36">
+      <children xsi:type="editmodel:MethodEditModel" name="TargetParser" id="pro3.parser/TargetParser#TargetParser(Lpro3.target.Target;Lpro3.shape.ShapeManager;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="parse" id="pro3.parser/TargetParser#parse(Ljava.util.Scanner;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,96">
+      <children xsi:type="editmodel:ClassEditModel" name="ClearParser" location="148,0" size="128,30" id="pro3.parser/TargetParser$ClearParser" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="pro3.parser/MetaParser&lt;-pro3.parser/TargetParser$ClearParser" source="//@children.7/@children.2/@children.0" target="//@children.3/@sourceConnections.4" targetEnd="//@children.7/@children.2/@children.0/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@children.2/@children.0/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+          <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" anchorKind="FixedAtEdge" attachSource="true"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" location="112,-75" anchorKind="FixedAtEdge" attachSource="true"/>
+        </sourceConnections>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="DrawParser" location="148,0" size="128,30" id="pro3.parser/TargetParser$DrawParser" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="pro3.parser/MetaParser&lt;-pro3.parser/TargetParser$DrawParser" source="//@children.7/@children.2/@children.1" target="//@children.3/@sourceConnections.4" targetEnd="//@children.7/@children.2/@children.1/@sourceConnections.0/@children.1" sourceEnd="//@children.7/@children.2/@children.1/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+          <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" anchorKind="FixedAtEdge" attachSource="true"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" location="-139,-55"/>
+        </sourceConnections>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="FlushParser" size="129,30" id="pro3.parser/TargetParser$FlushParser" runTimeClassModel="">
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+      </children>
+    </children>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/TargetParser-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.7" target="//@children.12" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="152,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,16"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/TargetParser-Soyatec::Import->pro3.target/Target" source="//@children.7" target="//@children.13" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="109,205" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="42,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.parser/TargetParser-Standard::Call->pro3.parser/MetaParser*pro3.parser/TargetParser-Soyatec::Import->pro3.parser/MetaParser*pro3.parser/TargetParser-Soyatec::Implement->pro3.parser/MetaParser" source="//@children.7" target="//@children.4" targetEnd="//@children.7/@sourceConnections.2/@children.2" label="//@children.7/@sourceConnections.2/@children.0" sourceEnd="//@children.7/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Implement»" location="374,94" size="146,13" automaticRelocationAllowed="false" locationOnWireFromSource="12.007523207756691" distanceFromWire="26.866696604070707" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="152,41" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="5,94"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="pro3.parser/MetaParser&lt;-pro3.parser/TargetParser" source="//@children.7" target="//@children.3/@sourceConnections.4" targetEnd="//@children.7/@sourceConnections.3/@children.1" sourceEnd="//@children.7/@sourceConnections.3/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="75,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="17,-55"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.11/@sourceConnections.0 //@children.13/@sourceConnections.0 //@children.14/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.9/@sourceConnections.2 //@children.2/@sourceConnections.4 //@children.10/@sourceConnections.2 //@children.15/@sourceConnections.2 //@children.16/@sourceConnections.4 //@children.17/@sourceConnections.4 //@children.18/@sourceConnections.4 //@children.19/@sourceConnections.1 //@children.20/@sourceConnections.3 //@children.21/@sourceConnections.3" name="Attribute" location="1423,1229" size="131,189" id="pro3.shape/Attribute" runTimeClassModel="Attribute(),setColor(III),color,fill,getColor(),getFill(),setFill(Z)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="108,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="color" id="pro3.shape/Attribute#color"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fill" location="4,63" id="pro3.shape/Attribute#fill"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="78,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Attribute" id="pro3.shape/Attribute#Attribute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getColor" id="pro3.shape/Attribute#getColor()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFill" id="pro3.shape/Attribute#getFill()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setColor" id="pro3.shape/Attribute#setColor(III)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setFill" id="pro3.shape/Attribute#setFill(Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.2 //@children.16/@sourceConnections.1 //@children.17/@sourceConnections.6 //@children.18/@sourceConnections.1 //@children.20/@sourceConnections.5 //@children.21/@sourceConnections.4" name="Circle" location="1076,1001" size="119,207" id="pro3.shape/Circle" runTimeClassModel="setAttribute(Lpro3.shape.Attribute;),r,getAttribute(),attr,draw(Lpro3.target.Target;),y,Circle(IIII),x">
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="attr" id="pro3.shape/Circle#attr"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="r" id="pro3.shape/Circle#r"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="x" id="pro3.shape/Circle#x"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="y" id="pro3.shape/Circle#y"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Circle" id="pro3.shape/Circle#Circle(IIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="pro3.shape/Circle#draw(Lpro3.target.Target;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAttribute" id="pro3.shape/Circle#getAttribute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAttribute" id="pro3.shape/Circle#setAttribute(Lpro3.shape.Attribute;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.shape/Circle-Standard::Derive->pro3.shape/Shape" source="//@children.9" target="//@children.11" targetEnd="//@children.9/@sourceConnections.0/@children.2" label="//@children.9/@sourceConnections.0/@children.0" sourceEnd="//@children.9/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" location="1151,958" size="50,13" automaticRelocationAllowed="false" locationOnWireFromSource="1.9999999999999998" distanceFromWire="-4.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="21,243"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.shape/Circle-Standard::Call->pro3.target/Target*pro3.shape/Circle-Soyatec::Import->pro3.target/Target" source="//@children.9" target="//@children.13" targetEnd="//@children.9/@sourceConnections.1/@children.2" label="//@children.9/@sourceConnections.1/@children.0" sourceEnd="//@children.9/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" location="972,1069" size="79,13" automaticRelocationAllowed="false" locationOnWireFromSource="-269.1809924191607" distanceFromWire="15.735098354817172" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,82" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,116"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="pro3.shape/Circle-Soyatec::Import->pro3.shape/Attribute" source="//@children.9" target="//@children.8" targetEnd="//@children.9/@sourceConnections.2/@children.2" label="//@children.9/@sourceConnections.2/@children.0" sourceEnd="//@children.9/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" location="1247,1231" size="51,13" automaticRelocationAllowed="false" locationOnWireFromSource="-30.799579670570466" distanceFromWire="-20.282650026961033" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,191" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,35"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" id="pro3.shape/Shape&lt;-pro3.shape/Circle" source="//@children.9" target="//@children.10/@sourceConnections.3" targetEnd="//@children.9/@sourceConnections.3/@children.1" sourceEnd="//@children.9/@sourceConnections.3/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-647,-615" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.17/@sourceConnections.2" name="Rectangle" location="1225,1001" size="119,225" id="pro3.shape/Rectangle" runTimeClassModel="Rectangle(IIIII),w,setAttribute(Lpro3.shape.Attribute;),getAttribute(),attr,draw(Lpro3.target.Target;),y,h,x">
+    <children xsi:type="editmodel:CompartmentEditModel" size="94,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="attr" id="pro3.shape/Rectangle#attr"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="h" id="pro3.shape/Rectangle#h"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="w" id="pro3.shape/Rectangle#w"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="x" id="pro3.shape/Rectangle#x"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="y" id="pro3.shape/Rectangle#y"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Rectangle" id="pro3.shape/Rectangle#Rectangle(IIIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="pro3.shape/Rectangle#draw(Lpro3.target.Target;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAttribute" id="pro3.shape/Rectangle#getAttribute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAttribute" id="pro3.shape/Rectangle#setAttribute(Lpro3.shape.Attribute;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.shape/Rectangle-Standard::Derive->pro3.shape/Shape" source="//@children.10" target="//@children.11" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" location="1241,953" size="50,13" automaticRelocationAllowed="false" locationOnWireFromSource="7.0" distanceFromWire="-19.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="22,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,243"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.shape/Rectangle-Standard::Call->pro3.target/Target*pro3.shape/Rectangle-Soyatec::Import->pro3.target/Target" source="//@children.10" target="//@children.13" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" location="838,1046" size="79,13" automaticRelocationAllowed="false" locationOnWireFromSource="-60.99999999999999" distanceFromWire="60.00000000000001" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,94" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,113"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="pro3.shape/Rectangle-Soyatec::Import->pro3.shape/Attribute" source="//@children.10" target="//@children.8" targetEnd="//@children.10/@sourceConnections.2/@children.2" label="//@children.10/@sourceConnections.2/@children.0" sourceEnd="//@children.10/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,224" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="35,-1"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.9/@sourceConnections.3" id="pro3.shape/Shape&lt;-pro3.shape/Rectangle" source="//@children.10" target="//@children.11" targetEnd="//@children.10/@sourceConnections.3/@children.1" sourceEnd="//@children.10/@sourceConnections.3/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,243" anchorKind="FixedAtEdge"/>
+      <bendpoints secondRelativeDimension="71,51" firstRelativeDimension="2,-14"/>
+      <bendpoints secondRelativeDimension="1,53" firstRelativeDimension="-82,-12"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.9/@sourceConnections.0 //@children.10/@sourceConnections.0 //@children.2/@sourceConnections.3 //@children.6/@sourceConnections.0 //@children.12/@sourceConnections.1 //@children.10/@sourceConnections.3 //@children.16/@sourceConnections.2 //@children.17/@sourceConnections.1 //@children.18/@sourceConnections.2 //@children.20/@sourceConnections.0 //@children.21/@sourceConnections.0" name="Shape" location="1151,688" size="119,243" id="pro3.shape/Shape" runTimeClassModel="id,Shape(IIII),setAttribute(Lpro3.shape.Attribute;),setID(I),getAttribute(),bottom,left,right,draw(Lpro3.target.Target;),top">
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="bottom" location="8,16" id="pro3.shape/Shape#bottom"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="id" location="4,30" id="pro3.shape/Shape#id"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="left" id="pro3.shape/Shape#left"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="right" id="pro3.shape/Shape#right"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="top" id="pro3.shape/Shape#top"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,90">
+      <children xsi:type="editmodel:MethodEditModel" name="Shape" location="878,729" id="pro3.shape/Shape#Shape(IIII)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="pro3.shape/Shape#draw(Lpro3.target.Target;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getAttribute" id="pro3.shape/Shape#getAttribute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setAttribute" id="pro3.shape/Shape#setAttribute(Lpro3.shape.Attribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setID" id="pro3.shape/Shape#setID(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.shape/Shape-Soyatec::Import->pro3.shape/Attribute" source="//@children.11" target="//@children.8" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" location="1379,1115" size="51,13" automaticRelocationAllowed="false" locationOnWireFromSource="67.1574503528275" distanceFromWire="23.64057660268693" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,232" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="14,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="pro3.shape/Shape-Soyatec::Import->pro3.target/Target" source="//@children.11" target="//@children.13" targetEnd="//@children.11/@sourceConnections.1/@children.2" label="//@children.11/@sourceConnections.1/@children.0" sourceEnd="//@children.11/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" location="642,773" size="51,13" automaticRelocationAllowed="false" locationOnWireFromSource="132.0" distanceFromWire="-13.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,88" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,53"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.14/@sourceConnections.2 //@children.15/@sourceConnections.0 //@children.0/@sourceConnections.2 //@children.3/@sourceConnections.2 //@children.5/@sourceConnections.2 //@children.7/@sourceConnections.0 //@children.13/@sourceConnections.1 //@children.16/@sourceConnections.3 //@children.17/@sourceConnections.3 //@children.18/@sourceConnections.3 //@children.19/@sourceConnections.0 //@children.20/@sourceConnections.2 //@children.21/@sourceConnections.2 //@children.22/@sourceConnections.2" name="ShapeManager" location="872,747" size="183,207" id="pro3.shape/ShapeManager" runTimeClassModel="add(Lpro3.shape.Shape;),ShapeManager(),clear(),put(Lpro3.shape.Shape;),remove(I),draw(Lpro3.target.Target;),replace(Lpro3.shape.Shape;),array">
+    <children xsi:type="editmodel:CompartmentEditModel" size="160,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="array" id="pro3.shape/ShapeManager#array"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,126">
+      <children xsi:type="editmodel:MethodEditModel" name="ShapeManager" id="pro3.shape/ShapeManager#ShapeManager()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="pro3.shape/ShapeManager#add(Lpro3.shape.Shape;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="pro3.shape/ShapeManager#clear()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="pro3.shape/ShapeManager#draw(Lpro3.target.Target;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="put" id="pro3.shape/ShapeManager#put(Lpro3.shape.Shape;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="remove" id="pro3.shape/ShapeManager#remove(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="replace" id="pro3.shape/ShapeManager#replace(Lpro3.shape.Shape;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.shape/ShapeManager-Soyatec::Import->pro3.target/Target" source="//@children.12" target="//@children.13" targetEnd="//@children.12/@sourceConnections.0/@children.2" label="//@children.12/@sourceConnections.0/@children.0" sourceEnd="//@children.12/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" location="639,831" size="51,13" automaticRelocationAllowed="false" locationOnWireFromSource="-3.0" distanceFromWire="-1.0000000000000009" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,92" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,91"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="pro3.shape/ShapeManager-Standard::Call->pro3.shape/Shape*pro3.shape/ShapeManager-Soyatec::Access->pro3.shape/Shape*pro3.shape/ShapeManager-Soyatec::Import->pro3.shape/Shape" source="//@children.12" target="//@children.11" targetEnd="//@children.12/@sourceConnections.1/@children.2" label="//@children.12/@sourceConnections.1/@children.0" sourceEnd="//@children.12/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Access»" location="782,717" size="126,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="182,115" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,155"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.14/@sourceConnections.1 //@children.15/@sourceConnections.1 //@children.0/@sourceConnections.3 //@children.3/@sourceConnections.3 //@children.7/@sourceConnections.1 //@children.9/@sourceConnections.1 //@children.10/@sourceConnections.1 //@children.12/@sourceConnections.0 //@children.11/@sourceConnections.1 //@children.16/@sourceConnections.5 //@children.17/@sourceConnections.5 //@children.18/@sourceConnections.5 //@children.19/@sourceConnections.2 //@children.20/@sourceConnections.4 //@children.22/@sourceConnections.3" name="Target" location="314,748" size="136,184" id="pro3.target/Target" runTimeClassModel="finish(),clear(),drawCircle(IIIILpro3.shape.Attribute;),flush(),draw(Lpro3.shape.ShapeManager;),drawRectangle(IIIIILpro3.shape.Attribute;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,108">
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="pro3.target/Target#clear()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="pro3.target/Target#draw(Lpro3.shape.ShapeManager;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawCircle" id="pro3.target/Target#drawCircle(IIIILpro3.shape.Attribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawRectangle" location="292,803" id="pro3.target/Target#drawRectangle(IIIIILpro3.shape.Attribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="finish" id="pro3.target/Target#finish()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="pro3.target/Target#flush()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.target/Target-Soyatec::Import->pro3.shape/Attribute" source="//@children.13" target="//@children.8" targetEnd="//@children.13/@sourceConnections.0/@children.2" label="//@children.13/@sourceConnections.0/@children.0" sourceEnd="//@children.13/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" location="962,1091" size="51,13" automaticRelocationAllowed="false" locationOnWireFromSource="53.82008128100694" distanceFromWire="5.6919988497720855" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,122" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,66"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="pro3.target/Target-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.13" target="//@children.12" targetEnd="//@children.13/@sourceConnections.1/@children.2" label="//@children.13/@sourceConnections.1/@children.0" sourceEnd="//@children.13/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,75" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,69"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TextTarget" location="44,1060" size="136,189" id="pro3.target/TextTarget" runTimeClassModel="finish(),clear(),drawCircle(IIIILpro3.shape.Attribute;),flush(),drawRectangle(IIIIILpro3.shape.Attribute;),draw(Lpro3.shape.ShapeManager;),print(Lpro3.shape.Attribute;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,126">
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="pro3.target/TextTarget#clear()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="pro3.target/TextTarget#draw(Lpro3.shape.ShapeManager;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawCircle" id="pro3.target/TextTarget#drawCircle(IIIILpro3.shape.Attribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawRectangle" id="pro3.target/TextTarget#drawRectangle(IIIIILpro3.shape.Attribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="finish" id="pro3.target/TextTarget#finish()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="print" id="pro3.target/TextTarget#print(Lpro3.shape.Attribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="pro3.target/TextTarget#flush()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.target/TextTarget-Standard::Call->pro3.shape/Attribute*pro3.target/TextTarget-Soyatec::Import->pro3.shape/Attribute" source="//@children.14" target="//@children.8" targetEnd="//@children.14/@sourceConnections.0/@children.2" label="//@children.14/@sourceConnections.0/@children.0" sourceEnd="//@children.14/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,179" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.target/TextTarget-Soyatec::Implement->pro3.target/Target" source="//@children.14" target="//@children.13" targetEnd="//@children.14/@sourceConnections.1/@children.2" label="//@children.14/@sourceConnections.1/@children.0" sourceEnd="//@children.14/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,171"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="pro3.target/TextTarget-Standard::Call->pro3.shape/ShapeManager*pro3.target/TextTarget-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.14" target="//@children.12" targetEnd="//@children.14/@sourceConnections.2/@children.2" label="//@children.14/@sourceConnections.2/@children.0" sourceEnd="//@children.14/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,35" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,147"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.16/@sourceConnections.0 //@children.17/@sourceConnections.0 //@children.18/@sourceConnections.0" name="WindowTarget" location="418,1061" size="147,225" id="pro3.target/WindowTarget" runTimeClassModel="finish(),panel,clear(),drawCircle(IIIILpro3.shape.Attribute;),flush(),draw(Lpro3.shape.ShapeManager;),drawRectangle(IIIIILpro3.shape.Attribute;),WindowTarget(Ljava.lang.String;II),WindowTarget(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="panel" id="pro3.target/WindowTarget#panel"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,144">
+      <children xsi:type="editmodel:MethodEditModel" name="WindowTarget" id="pro3.target/WindowTarget#WindowTarget(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="pro3.target/WindowTarget#clear()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="pro3.target/WindowTarget#draw(Lpro3.shape.ShapeManager;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawCircle" id="pro3.target/WindowTarget#drawCircle(IIIILpro3.shape.Attribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawRectangle" id="pro3.target/WindowTarget#drawRectangle(IIIIILpro3.shape.Attribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="finish" id="pro3.target/WindowTarget#finish()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="WindowTarget" id="pro3.target/WindowTarget#WindowTarget(Ljava.lang.String;II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="pro3.target/WindowTarget#flush()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.target/WindowTarget-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.15" target="//@children.12" targetEnd="//@children.15/@sourceConnections.0/@children.2" label="//@children.15/@sourceConnections.0/@children.0" sourceEnd="//@children.15/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="147,61" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,165"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.target/WindowTarget-Soyatec::Implement->pro3.target/Target" source="//@children.15" target="//@children.13" targetEnd="//@children.15/@sourceConnections.1/@children.2" label="//@children.15/@sourceConnections.1/@children.0" sourceEnd="//@children.15/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="119,184"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="pro3.target/WindowTarget-Soyatec::Import->pro3.shape/Attribute" source="//@children.15" target="//@children.8" targetEnd="//@children.15/@sourceConnections.2/@children.2" label="//@children.15/@sourceConnections.2/@children.0" sourceEnd="//@children.15/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="51,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="146,215" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="-1,92"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" id="pro3.target/WindowTarget-Standard::Call->pro3.target/PanelTarget*pro3.target/WindowTarget-Standard::Instantiate->pro3.target/PanelTarget*pro3.target/WindowTarget-Soyatec::Import->pro3.target/PanelTarget" source="//@children.15" target="//@children.19" targetEnd="//@children.15/@sourceConnections.3/@children.2" label="//@children.15/@sourceConnections.3/@children.0" sourceEnd="//@children.15/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" location="338,1097" size="146,13" automaticRelocationAllowed="false" locationOnWireFromSource="-31.41590387675393" distanceFromWire="-18.921970922886374" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,62" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="167,91"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main0" location="746,1158" size="86,68" id="pro3/Main0" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="pro3/Main0#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main0-Standard::Instantiate->pro3.target/WindowTarget" source="//@children.16" target="//@children.15" targetEnd="//@children.16/@sourceConnections.0/@children.2" label="//@children.16/@sourceConnections.0/@children.0" sourceEnd="//@children.16/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,33" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="147,130"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main0-Standard::Instantiate->pro3.shape/Circle" source="//@children.16" target="//@children.9" targetEnd="//@children.16/@sourceConnections.1/@children.2" label="//@children.16/@sourceConnections.1/@children.0" sourceEnd="//@children.16/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,24" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,181"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main0-Standard::Call->pro3.shape/Shape*pro3/Main0-Soyatec::Import->pro3.shape/Shape" source="//@children.16" target="//@children.11" targetEnd="//@children.16/@sourceConnections.2/@children.2" label="//@children.16/@sourceConnections.2/@children.0" sourceEnd="//@children.16/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="80,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,175"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main0-Standard::Call->pro3.shape/ShapeManager*pro3/Main0-Standard::Instantiate->pro3.shape/ShapeManager*pro3/Main0-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.16" target="//@children.12" targetEnd="//@children.16/@sourceConnections.3/@children.2" label="//@children.16/@sourceConnections.3/@children.0" sourceEnd="//@children.16/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="60,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="38,207"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main0-Standard::Call->pro3.shape/Attribute*pro3/Main0-Standard::Instantiate->pro3.shape/Attribute*pro3/Main0-Soyatec::Import->pro3.shape/Attribute" source="//@children.16" target="//@children.8" targetEnd="//@children.16/@sourceConnections.4/@children.2" label="//@children.16/@sourceConnections.4/@children.0" sourceEnd="//@children.16/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,42" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,82"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main0-Standard::Call->pro3.target/Target*pro3/Main0-Soyatec::Import->pro3.target/Target" source="//@children.16" target="//@children.13" targetEnd="//@children.16/@sourceConnections.5/@children.2" label="//@children.16/@sourceConnections.5/@children.0" sourceEnd="//@children.16/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="4,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,151"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main1" location="839,1304" size="86,68" id="pro3/Main1" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="pro3/Main1#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main1-Standard::Instantiate->pro3.target/WindowTarget" source="//@children.17" target="//@children.15" targetEnd="//@children.17/@sourceConnections.0/@children.2" label="//@children.17/@sourceConnections.0/@children.0" sourceEnd="//@children.17/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,16" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="147,143"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main1-Standard::Call->pro3.shape/Shape*pro3/Main1-Soyatec::Import->pro3.shape/Shape" source="//@children.17" target="//@children.11" targetEnd="//@children.17/@sourceConnections.1/@children.2" label="//@children.17/@sourceConnections.1/@children.0" sourceEnd="//@children.17/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,216"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main1-Standard::Instantiate->pro3.shape/Rectangle" source="//@children.17" target="//@children.10" targetEnd="//@children.17/@sourceConnections.2/@children.2" label="//@children.17/@sourceConnections.2/@children.0" sourceEnd="//@children.17/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,145"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main1-Standard::Call->pro3.shape/ShapeManager*pro3/Main1-Standard::Instantiate->pro3.shape/ShapeManager*pro3/Main1-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.17" target="//@children.12" targetEnd="//@children.17/@sourceConnections.3/@children.2" label="//@children.17/@sourceConnections.3/@children.0" sourceEnd="//@children.17/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,207"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main1-Standard::Call->pro3.shape/Attribute*pro3/Main1-Standard::Instantiate->pro3.shape/Attribute*pro3/Main1-Soyatec::Import->pro3.shape/Attribute" source="//@children.17" target="//@children.8" targetEnd="//@children.17/@sourceConnections.4/@children.2" label="//@children.17/@sourceConnections.4/@children.0" sourceEnd="//@children.17/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,33" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,108"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main1-Standard::Call->pro3.target/Target*pro3/Main1-Soyatec::Import->pro3.target/Target" source="//@children.17" target="//@children.13" targetEnd="//@children.17/@sourceConnections.5/@children.2" label="//@children.17/@sourceConnections.5/@children.0" sourceEnd="//@children.17/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="9,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,160"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main1-Standard::Instantiate->pro3.shape/Circle" source="//@children.17" target="//@children.9" targetEnd="//@children.17/@sourceConnections.6/@children.2" label="//@children.17/@sourceConnections.6/@children.0" sourceEnd="//@children.17/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="80,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,158"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showProtectedMethods="true" showPublicMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main3" location="690,1365" size="86,68" id="pro3/Main3" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="58,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="pro3/Main3#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main3-Standard::Instantiate->pro3.target/WindowTarget" source="//@children.18" target="//@children.15" targetEnd="//@children.18/@sourceConnections.0/@children.2" label="//@children.18/@sourceConnections.0/@children.0" sourceEnd="//@children.18/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="7,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="147,181"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main3-Standard::Instantiate->pro3.shape/Circle" source="//@children.18" target="//@children.9" targetEnd="//@children.18/@sourceConnections.1/@children.2" label="//@children.18/@sourceConnections.1/@children.0" sourceEnd="//@children.18/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,2" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,146"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main3-Standard::Call->pro3.shape/Shape*pro3/Main3-Soyatec::Import->pro3.shape/Shape" source="//@children.18" target="//@children.11" targetEnd="//@children.18/@sourceConnections.2/@children.2" label="//@children.18/@sourceConnections.2/@children.0" sourceEnd="//@children.18/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,194"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main3-Standard::Call->pro3.shape/ShapeManager*pro3/Main3-Standard::Instantiate->pro3.shape/ShapeManager*pro3/Main3-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.18" target="//@children.12" targetEnd="//@children.18/@sourceConnections.3/@children.2" label="//@children.18/@sourceConnections.3/@children.0" sourceEnd="//@children.18/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="47,207"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main3-Standard::Call->pro3.shape/Attribute*pro3/Main3-Standard::Instantiate->pro3.shape/Attribute*pro3/Main3-Soyatec::Import->pro3.shape/Attribute" source="//@children.18" target="//@children.8" targetEnd="//@children.18/@sourceConnections.4/@children.2" label="//@children.18/@sourceConnections.4/@children.0" sourceEnd="//@children.18/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,26" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,162"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main3-Standard::Call->pro3.target/Target*pro3/Main3-Soyatec::Import->pro3.target/Target" source="//@children.18" target="//@children.13" targetEnd="//@children.18/@sourceConnections.5/@children.2" label="//@children.18/@sourceConnections.5/@children.0" sourceEnd="//@children.18/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="22,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,184"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPublicMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.15/@sourceConnections.3 //@children.20/@sourceConnections.1 //@children.21/@sourceConnections.1 //@children.22/@sourceConnections.1" name="PanelTarget" location="207,1061" size="168,279" id="pro3.target/PanelTarget" runTimeClassModel="finish(),paintComponent(Ljava.awt.Graphics;),height,clear(),drawCircle(IIIILpro3.shape.Attribute;),width,flush(),image,draw(Lpro3.shape.ShapeManager;),drawRectangle(IIIIILpro3.shape.Attribute;),PanelTarget(II),graphics">
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="graphics" id="pro3.target/PanelTarget#graphics"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="height" id="pro3.target/PanelTarget#height"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="image" id="pro3.target/PanelTarget#image"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="width" id="pro3.target/PanelTarget#width"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="123,144">
+      <children xsi:type="editmodel:MethodEditModel" name="PanelTarget" id="pro3.target/PanelTarget#PanelTarget(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="pro3.target/PanelTarget#clear()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="draw" id="pro3.target/PanelTarget#draw(Lpro3.shape.ShapeManager;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawCircle" id="pro3.target/PanelTarget#drawCircle(IIIILpro3.shape.Attribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawRectangle" id="pro3.target/PanelTarget#drawRectangle(IIIIILpro3.shape.Attribute;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="finish" id="pro3.target/PanelTarget#finish()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="flush" id="pro3.target/PanelTarget#flush()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="paintComponent" id="pro3.target/PanelTarget#paintComponent(Ljava.awt.Graphics;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.target/PanelTarget-Standard::Call->pro3.shape/ShapeManager*pro3.target/PanelTarget-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.19" target="//@children.12" targetEnd="//@children.19/@sourceConnections.0/@children.2" label="//@children.19/@sourceConnections.0/@children.0" sourceEnd="//@children.19/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="168,95" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,150"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.target/PanelTarget-Standard::Call->pro3.shape/Attribute*pro3.target/PanelTarget-Soyatec::Import->pro3.shape/Attribute" source="//@children.19" target="//@children.8" targetEnd="//@children.19/@sourceConnections.1/@children.2" label="//@children.19/@sourceConnections.1/@children.0" sourceEnd="//@children.19/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="168,223" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,55"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3.target/PanelTarget-Soyatec::Implement->pro3.target/Target" source="//@children.19" target="//@children.13" targetEnd="//@children.19/@sourceConnections.2/@children.2" label="//@children.19/@sourceConnections.2/@children.0" sourceEnd="//@children.19/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="137,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="30,184"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main4" location="922,1502" size="192,194" id="pro3/Main4" runTimeClassModel="main([Ljava.lang.String;),panel,sm,actionPerformed(Ljava.awt.event.ActionEvent;),button2,Main4(),initWindow(),button1">
+    <children xsi:type="editmodel:CompartmentEditModel" size="169,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="button1" id="pro3/Main4#button1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="button2" id="pro3/Main4#button2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="panel" id="pro3/Main4#panel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sm" id="pro3/Main4#sm"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Main4" id="pro3/Main4#Main4()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" id="pro3/Main4#actionPerformed(Ljava.awt.event.ActionEvent;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initWindow" id="pro3/Main4#initWindow()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="pro3/Main4#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main4-Standard::Call->pro3.shape/Shape*pro3/Main4-Soyatec::Import->pro3.shape/Shape" source="//@children.20" target="//@children.11" targetEnd="//@children.20/@sourceConnections.0/@children.2" label="//@children.20/@sourceConnections.0/@children.0" sourceEnd="//@children.20/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="120,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="29,243"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main4-Standard::Instantiate->pro3.target/PanelTarget" source="//@children.20" target="//@children.19" targetEnd="//@children.20/@sourceConnections.1/@children.2" label="//@children.20/@sourceConnections.1/@children.0" sourceEnd="//@children.20/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,44" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="168,185"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main4-Standard::Call->pro3.shape/ShapeManager*pro3/Main4-Standard::Instantiate->pro3.shape/ShapeManager*pro3/Main4-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.20" target="//@children.12" targetEnd="//@children.20/@sourceConnections.2/@children.2" label="//@children.20/@sourceConnections.2/@children.0" sourceEnd="//@children.20/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="66,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,207"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main4-Standard::Call->pro3.shape/Attribute*pro3/Main4-Standard::Instantiate->pro3.shape/Attribute*pro3/Main4-Soyatec::Import->pro3.shape/Attribute" source="//@children.20" target="//@children.8" targetEnd="//@children.20/@sourceConnections.3/@children.2" label="//@children.20/@sourceConnections.3/@children.0" sourceEnd="//@children.20/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="192,41" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,132"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main4-Standard::Call->pro3.target/Target*pro3/Main4-Soyatec::Import->pro3.target/Target" source="//@children.20" target="//@children.13" targetEnd="//@children.20/@sourceConnections.4/@children.2" label="//@children.20/@sourceConnections.4/@children.0" sourceEnd="//@children.20/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="136,173"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main4-Standard::Instantiate->pro3.shape/Circle" source="//@children.20" target="//@children.9" targetEnd="//@children.20/@sourceConnections.5/@children.2" label="//@children.20/@sourceConnections.5/@children.0" sourceEnd="//@children.20/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="172,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="18,207"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main5" location="691,1503" size="192,176" id="pro3/Main5" runTimeClassModel="main([Ljava.lang.String;),panel,slider,Main5(),sm,stateChanged(Ljavax.swing.event.ChangeEvent;),initWindow()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="169,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="panel" id="pro3/Main5#panel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="slider" id="pro3/Main5#slider"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sm" id="pro3/Main5#sm"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Main5" id="pro3/Main5#Main5()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initWindow" id="pro3/Main5#initWindow()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="pro3/Main5#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stateChanged" id="pro3/Main5#stateChanged(Ljavax.swing.event.ChangeEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main5-Standard::Call->pro3.shape/Shape*pro3/Main5-Soyatec::Import->pro3.shape/Shape" source="//@children.21" target="//@children.11" targetEnd="//@children.21/@sourceConnections.0/@children.2" label="//@children.21/@sourceConnections.0/@children.0" sourceEnd="//@children.21/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="144,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,230"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main5-Standard::Call->pro3.target/PanelTarget*pro3/Main5-Standard::Instantiate->pro3.target/PanelTarget*pro3/Main5-Soyatec::Import->pro3.target/PanelTarget" source="//@children.21" target="//@children.19" targetEnd="//@children.21/@sourceConnections.1/@children.2" label="//@children.21/@sourceConnections.1/@children.0" sourceEnd="//@children.21/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,12" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="168,205"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main5-Standard::Call->pro3.shape/ShapeManager*pro3/Main5-Standard::Instantiate->pro3.shape/ShapeManager*pro3/Main5-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.21" target="//@children.12" targetEnd="//@children.21/@sourceConnections.2/@children.2" label="//@children.21/@sourceConnections.2/@children.0" sourceEnd="//@children.21/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="186,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="5,207"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main5-Standard::Call->pro3.shape/Attribute*pro3/Main5-Standard::Instantiate->pro3.shape/Attribute*pro3/Main5-Soyatec::Import->pro3.shape/Attribute" source="//@children.21" target="//@children.8" targetEnd="//@children.21/@sourceConnections.3/@children.2" label="//@children.21/@sourceConnections.3/@children.0" sourceEnd="//@children.21/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="192,51" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,119"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main5-Standard::Instantiate->pro3.shape/Circle" source="//@children.21" target="//@children.9" targetEnd="//@children.21/@sourceConnections.4/@children.2" label="//@children.21/@sourceConnections.4/@children.0" sourceEnd="//@children.21/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="159,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,186"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Main6" location="468,401" size="165,230" id="pro3/Main6" runTimeClassModel="main([Ljava.lang.String;),panel,sm,sliders,stateChanged(Ljavax.swing.event.ChangeEvent;),sLIDECOUNT,initWindow(),Main6(),parser,shapes">
+    <children xsi:type="editmodel:CompartmentEditModel" size="142,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="panel" id="pro3/Main6#panel"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="parser" id="pro3/Main6#parser"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sLIDECOUNT" id="pro3/Main6#sLIDECOUNT"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="shapes" id="pro3/Main6#shapes"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sliders" id="pro3/Main6#sliders"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sm" id="pro3/Main6#sm"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Main6" id="pro3/Main6#Main6()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initWindow" id="pro3/Main6#initWindow()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="pro3/Main6#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="stateChanged" id="pro3/Main6#stateChanged(Ljavax.swing.event.ChangeEvent;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main6-Standard::Call->pro3.parser/MainParser*pro3/Main6-Standard::Instantiate->pro3.parser/MainParser*pro3/Main6-Soyatec::Import->pro3.parser/MainParser" source="//@children.22" target="//@children.3" targetEnd="//@children.22/@sourceConnections.0/@children.2" label="//@children.22/@sourceConnections.0/@children.0" sourceEnd="//@children.22/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="82,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="144,153"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main6-Standard::Instantiate->pro3.target/PanelTarget" source="//@children.22" target="//@children.19" targetEnd="//@children.22/@sourceConnections.1/@children.2" label="//@children.22/@sourceConnections.1/@children.0" sourceEnd="//@children.22/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="74,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="38,230" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="137,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main6-Standard::Call->pro3.shape/ShapeManager*pro3/Main6-Standard::Instantiate->pro3.shape/ShapeManager*pro3/Main6-Soyatec::Import->pro3.shape/ShapeManager" source="//@children.22" target="//@children.12" targetEnd="//@children.22/@sourceConnections.2/@children.2" label="//@children.22/@sourceConnections.2/@children.0" sourceEnd="//@children.22/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Instantiate, Import»" size="146,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="165,182" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="pro3/Main6-Standard::Call->pro3.target/Target*pro3/Main6-Soyatec::Import->pro3.target/Target" source="//@children.22" target="//@children.13" targetEnd="//@children.22/@sourceConnections.3/@children.2" label="//@children.22/@sourceConnections.3/@children.0" sourceEnd="//@children.22/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="79,13" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="22,230" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="自然" methodSorter="自然" innerClassSorter="自然" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=4;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="自然" methodSorter="自然" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="自然" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>
